@@ -2,5 +2,7 @@ language: python
 python:
   - "3.7"
 
-services:
-  - mysql
+script:
+  echo "Hola mundo de travis"
+notifications:
+  email: false
